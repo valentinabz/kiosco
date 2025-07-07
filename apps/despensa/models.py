@@ -9,7 +9,7 @@ class Producto(models.Model):
   def __str__(self):
     return f"{self.nombre}.{self.descripcion}"
 
-
+#models producto
 
 
 class Categoria(models.Model):
